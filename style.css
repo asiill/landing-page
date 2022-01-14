@@ -1,0 +1,149 @@
+.body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 72px;
+    font-size: 24px;
+    color: #f9faf8;
+    background: #1F2937;
+    padding: 10px 60px 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.footer {
+    height: 72px;
+    font-size: 18px;
+    color: #e5e7eb;
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    background: #1F2937;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content .subscribe {
+    width: 20%;
+}
+
+.placeholder {
+    width: 50%;
+    color: #f9faf8;
+    background: #e5e7eb81;
+    border: none;
+    padding: 8% 0 8% 0;
+    text-align: center;
+}
+
+.gallery {
+    background: #f9faf8;
+}
+
+.gallery .title {
+    font: 36px;
+    color: #1F2937;
+    weight: 900;
+    
+}
+
+.item {
+    font-size: 18px;
+}
+
+img {
+    width: 200px;
+    border: 2px solid #3882F6;
+}
+
+.quote {
+    background: #e5e7eb;
+}
+
+.quote .text {
+    font-size: 36px;
+    color: #1F2937;
+    weight: 400;
+}
+
+.quote .source {
+    font-size: 18px;
+    color: #1F2937;
+    weight: 900;
+}
+
+.call-to-action {
+    background: #f9faf8;
+}
+
+.register {
+    background: #3882F6;
+}
+
+.register .title {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.register .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.register .action {
+    border: 2px solid white;
+}
+
+button {
+    font-size: 18px;
+    color: #f9faf8;
+    background: #3882F6;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+}
